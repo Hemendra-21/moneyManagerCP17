@@ -1,0 +1,125 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MoneyManager-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  padding-top: 50px;
+  width: 80%;
+}
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.banner-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.banner-description {
+  font-size: 12px;
+  color: #475569;
+  margin-top: 0px;
+}
+.banner-span-text {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.money-details-containers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.transactionItemsContainer {
+  display: flex;
+}
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid #d7dfe9;
+  padding: 30px;
+  width: 45%;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.add-transaction-heading {
+  font-size: 15px;
+}
+.inputTitle {
+  font-size: 10px;
+  color: #7e858e;
+  margin-bottom: 5px;
+}
+.inputElement {
+  height: 25px;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 10px;
+  width: 50%;
+  font-size: 10px;
+}
+.selectElement {
+  height: 25px;
+  margin-bottom: 10px;
+  outline: none;
+  width: 50%;
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+.add-transaction-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 60px;
+  font-size: 10px;
+}
+.transaction-history-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #d7dfe9;
+  width: 55%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.historyCategoryContainer {
+  border: 1px solid #d7dfe9;
+  display: flex;
+  padding: 0px;
+  width: 90%;
+  padding-left: 30px;
+}
+.historyCategory {
+  font-size: 12px;
+  color: #1e293b;
+  font-weight: bold;
+  width: 25%;
+}
+.historyContainerHeading {
+  font-size: 15px;
+}
+.history-items-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}

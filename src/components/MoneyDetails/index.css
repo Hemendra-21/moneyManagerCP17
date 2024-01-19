@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+.balance-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+  border-radius: 10px;
+  width: 25%;
+}
+.income-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+  border-radius: 10px;
+  width: 25%;
+}
+.expense-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+  border-radius: 10px;
+  width: 25%;
+}
+.moneyDetailsImg {
+  height: 50px;
+  margin-right: 25px;
+}
+.detail-text {
+  font-size: 12px;
+  font-weight: 500;
+}
+.balance-text {
+  font-size: 20px;
+  margin-top: 0px;
+}
