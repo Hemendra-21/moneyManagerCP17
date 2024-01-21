@@ -49,22 +49,21 @@ class MoneyManager extends Component {
         amount,
         transactionType,
       }
-
-      if (transactionType === 'INCOME') {
-        this.setState(prevState => ({income: prevState.income + amount}))
-      }
-      if (transactionType === 'EXPENSEs') {
-        this.setState(prevState => ({expense: prevState.expense + amount}))
-      }
-      this.setState(prevState => ({
-        balance: prevState.income - prevState.expense,
-      }))
-
       this.setState(prevState => ({
         title: '',
         amount: '',
         transactionType: 'INCOME',
         historyList: [...prevState.historyList, historyItem],
+      }))
+
+      if (transactionType === 'INCOME') {
+        this.setState(prevState => ({income: prevState.income + amount}))
+      }
+      if (transactionType === 'EXPENSES') {
+        this.setState(prevState => ({expense: prevState.expense + amount}))
+      }
+      this.setState(prevState => ({
+        balance: prevState.income - prevState.expense,
       }))
     }
   }
